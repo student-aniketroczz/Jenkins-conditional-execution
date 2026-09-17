@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git gitbranch: 'main', url: 'https://github.com/student-aniketroczz/Jenkins-conditional-execution.git'
+                git branch: 'main', url: 'https://github.com/student-aniketroczz/Jenkins-conditional-execution.git'
             }
         }
         stage('Build') {
